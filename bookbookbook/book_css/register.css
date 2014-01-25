@@ -1,0 +1,134 @@
+/*ユーザー登録画面のデザイン*/
+div.box {
+	border-style: none ;
+	border-width: 1px;
+	padding-top : 50px;
+    padding-right : 0px;
+    padding-bottom : 50px;
+    padding-left : 100px;
+	border-color: red;
+	color: green;
+	background-color: lavender;
+	width: 300px;
+	border-radius: 50px;
+	box-shadow: 5px 5px 5px #AAA;
+	margin:auto;
+	margin-top: 80px;
+}
+input[type=text], input[type=password]{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border:#a9a9a9 1px solid;
+	-moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 0 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+	width:200px;
+	height:25px;
+	padding:0 3px;
+}	 
+input[type=text], input[type=password]:focus {
+	border:solid 1px #ffa500;
+} 
+input[type=text], input[type=password], select {
+	outline: none;
+}
+input[type=submit]{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border:#a9a9a9 1px solid;
+	-moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 0 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+	width:40px;
+	height:25px;
+	padding:0 3px;
+	cursor:pointer;
+	color:#333;
+	font-weight:bold;
+	background:#f5f5f5;
+	text-shadow:1px 1px 0px #fff;
+}
+/* 06.付箋 */
+h1{
+	position:relative;
+	margin:0 22px 0 10px;
+	padding:14px 15px 0px 20px;
+	font:normal 24px/1.3 serif;
+	color:#009;
+	background:#ffc;
+	box-shadow:
+		12px 0 0 0 #ffc,
+		0 12px 0 0 #ffc,
+		1px 15px 4px -3px rgba(0,0,0,0.2);
+}
+h1:before{
+	content:" ";
+	position:absolute;
+	top:100%;
+	left:100%;
+	width:0;
+	height:0;
+	border-width:12px 12px 0 0;
+	border-style:solid;
+	border-color:transparent;
+	border-top-color:#cc9;
+}
+h1:after{
+	content:" ";
+	position:absolute;
+	padding:0 20px;
+	bottom:0;
+	left:10px;
+	width:200px;
+	height:20px;
+	background:rgba(255,182,182,0.4);
+	-webkit-transform: rotate(-1deg);
+	-moz-transform: rotate(-1deg);
+	-o-transform: rotate(-1deg);
+	transform: rotate(-1deg);
+}
+
+
+}
+h2 {
+	margin:auto;
+}
+p {
+	padding: 5px 5px 5px;
+	margin: 10px 10px 0px 0px;
+}
+a {
+	font-size: 13px;
+	/*100px 10px 20px*/
+    color:#0033cc;
+}
+a:hover{
+    background-color:transparent;
+}
+p.login_miss{
+	color:#ff0000;
+	margin: 0 0 0 -10;
+	font-size: 15px;
+}
+p.input_id{
+	float: right;
+	margin: 0px 0px 0px 0px;
+	font-size: 11px;
+	color: gray;
+	height: 20px;
+	width: 90px;
+}
+p.input_psw{
+	float: right;
+	margin: 0px 0px 0px 0px;
+	font-size: 11px;
+	color: gray;
+	height: 20px;
+	width: 90px;
+}

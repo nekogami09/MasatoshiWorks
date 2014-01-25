@@ -1,0 +1,204 @@
+
+
+
+div.main{
+  position: relative;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+
+div.footer{
+  text-align: right;
+  clear: both;
+  border-top-style: solid;
+  padding-top: 20px;
+}
+
+div.item_img {
+    border-bottom-width: 0;
+    float: left;
+    height: 150px;
+    padding-bottom: 0;
+    width: 130px;
+}
+
+div.item_cont{
+  float: left;
+  height: 150px;
+}
+
+div.item_check{
+  float: left;
+   position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 65px;
+}
+
+div.item_data,div.item_info,div.item_news{
+  text-align: center;
+  font-size: 100%;
+  margin:20px 0px 0px 100px; 
+  margin-top: 15px;
+}
+
+div.item_title{
+  text-align: center;
+  font-size: 130%;
+}
+
+ul.item_list{
+  position: relative;
+  zoom: 1;
+  overflow: hidden;
+  width: 900px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+
+
+li.item{
+  margin-left:0px;
+  list-style-type: none;
+  text-align: left;
+  margin:20px 0px 20px 100px; 
+  border-top: 1px dotted #0000FF;;
+  margin-top: -1px;
+  padding-top: 20px;
+  float: left;
+  list-style-type: none;
+
+}
+
+ul.info_list,ul.data_list,ul.news_list{
+  height: 20px;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+li.author,li.book_num,li.user_name{
+  margin-left: 0;
+  margin-top: 0;
+  float: left;
+  list-style-type: none;
+}
+li.publisher,li.book_count,li.borrow_time{
+  margin-left: 100px;
+    margin-top: 0;
+    float: right;
+  list-style-type: none;
+}
+
+
+div.header{
+  height: 80px;
+  border-bottom-style: solid;
+}
+div.title{
+  float: left;
+  width: 150px;
+  padding-left: 30px;
+}
+h1 {
+  text-align: left;
+  margin-top: 15px;
+  height: 60px;
+    width: 200px;
+}
+div.user_info{
+  float: right;
+  margin: 30px 20px 0px 0px;
+}
+div.searchForm{
+  /*background: white;
+  border: solid;
+  text-align: center;
+  margin:0 auto;*/
+  height: 60px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  width: 1200px;
+  position: relative;
+  text-align: center;
+  min-height: 67px;
+  border: 2px solid #999f9f;
+  border-radius: 8px;
+  background: #f8f9f9;
+  background: -webkit-linear-gradient( white, #d9dfdf) left repeat;
+  background: linear-gradient( white, #d9dfdf) left repeat;
+  box-shadow: 0 0 0 1px #e4e7e7;
+  margin: 12px auto;
+}
+
+
+
+#searchbutton {
+    left: -5px;
+    position: relative;
+    height: 35px;
+    top: 8px;
+    width: 50px;
+}
+#back-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+}
+ 
+#back-top a {
+width: 25px;
+height: 25px;
+display: block;
+padding-top: 5px;
+background: #000000; /* IE用 */
+background: -moz-linear-gradient(top, #333, #666 50%,#333 51%, #000);/* Firefox用 */
+background: -webkit-gradient(linear, left top, left bottom, from(#333), color-stop(0.5, #666), color-stop(0.51, #333), to(#000));/* Safari,Google Chrome用 */
+background: -o-linear-gradient(top, #333, #666 50%,#333 51%, #000);
+background: linear-gradient(top, #333, #666 50%,#333 51%, #000);
+color: #FFF;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+text-align: center;
+line-height: 1.2;
+text-decoration: none;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
+}
+ 
+#back-top a:hover {
+background: #EEEEEE; /* IE用 */
+background: -moz-linear-gradient(top, #CCC, #FFF 50%,#EEE 51%, #CCC);/* Firefox用 */
+background: -webkit-gradient(linear, left top, left bottom, from(#CCC), color-stop(0.5, #FFF), color-stop(0.51, #EEE), to(#CCC));/* Safari,Google Chrome用 */
+background: -o-linear-gradient(top, #CCC, #FFF 50%,#EEE 51%, #CCC);
+background: linear-gradient(top, #CCC, #FFF 50%,#EEE 51%, #CCC);
+color: #000;
+}
+
+div.complete{
+  height: 30px;
+    margin-bottom: 20px;
+    width: 50px;
+    text-align:center;
+  margin-left:auto;margin-right:auto;
+  text-align:left;
+}
+
+.completebutton{
+ height: 30px;
+    width: 50px;
+}
+
+.a{
+	text-align: center;
+}
+
+body{
+background: #f4f4f4;
+}
