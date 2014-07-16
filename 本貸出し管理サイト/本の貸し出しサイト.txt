@@ -1,0 +1,6 @@
+・本の管理サイト
+	学校のサーバーを借りて公開しています。
+	http://da.tani.cs.chs.nihon-u.ac.jp/test-g2015/book/book/login.php
+	ID:masatoshi09henmi@gmail.com
+	pass:9999
+・私が主に担当したところは、ISBNコードを入力すると本の情報を取得できそれをDBに入れるところを担当しました。
